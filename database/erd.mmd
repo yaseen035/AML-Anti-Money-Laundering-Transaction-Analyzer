@@ -1,0 +1,8 @@
+
+erDiagram
+    TRANSACTIONS ||--o{ TRANSACTION_EDGES : source
+    TRANSACTIONS ||--o{ MODEL_PREDICTIONS : receives
+    TRANSACTIONS ||--o| RISK_SCORES : has
+    TRANSACTIONS ||--o{ AML_ALERTS : generates
+    AML_ALERTS ||--o{ INVESTIGATION_CASES : creates
+    INVESTIGATION_CASES ||--o{ INVESTIGATION_HISTORY : records

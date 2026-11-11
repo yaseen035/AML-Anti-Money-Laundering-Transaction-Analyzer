@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# Dataset files
+data/raw/
+data/processed/
+
+# Local database
+data/database/*.db
+data/database/*.db-shm
+data/database/*.db-wal
+
+# Trained models
+models/*.joblib
+models/*.pkl
+
+# Generated results
+outputs/*.csv
+outputs/*.json
+outputs/figures/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
